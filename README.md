@@ -1,6 +1,6 @@
 GraphAnalysis
 =============
 
-Implementation of Primm's and Kruskal's algorithms to see which is better in practice.
+Implementation of Primm's and Kruskal's algorithms to estimate the algorithms' constant factors.
 
-Performance is measured through operaions rather than time, to avoid inconsistencies with timing ( mainly due to OS switching and scheduling etc.)
+Performance is measured by counting significant operations rather than process time to get more representative results.
